@@ -124,10 +124,12 @@ main().catch(console.error);
 
 ## API
 
-### `compromiser([spread = true])`
+### `compromiser([spread = false])`
 
 Creates a new instance of a compromiser `Promise`. Passing `true` through as
 the `spread` argument will return multiple callback arguments back as an array.
+
+The default is `false`.
 
 The instance of compromiser is a Promise. It does have a few other methods
 added which are detailed below.
