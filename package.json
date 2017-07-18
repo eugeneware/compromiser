@@ -1,4 +1,5 @@
 {
+  "name": "compromiser",
   "version": "1.0.0",
   "description": "A Promise that's also a callback. Helpful for adapting callback APIs and event emitters for async/await code.",
   "main": "index.js",
