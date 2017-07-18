@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "description": "A Promise that's also a callback. Helpful for adapting callback APIs and event emitters for async/await code.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/compromiser"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "async",
+    "await",
+    "defer",
+    "deferred",
+    "callback",
+    "nodeback",
+    "cb"
+  ],
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/compromiser/issues"
+  },
+  "devDependencies": {
+    "tape": "^4.7.0",
+    "tape-promise": "^2.0.1"
+  }
+}
