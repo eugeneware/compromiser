@@ -103,10 +103,10 @@ Here's an example with `request`:
 
 ``` js
 const request = require('request');
-const compromised = require('compromised');
+const compromiser = require('compromiser');
 
 async function main() {
-  let c = compromised(true);
+  let c = compromiser(true);
   request('http://example.com/test.html', c);
   try {
     // the two return variables in the (err, response, body) callback will
